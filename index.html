@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<h1>LEARN HTML AND CSS IN MY WEBSITE</h1>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+  <a href="#home" class="w3-button w3-bar-item">Home</a>
+  <a href="C:\Users\MSI\Desktop\batch 6\web Development\cs50 copy\aboutus.html" class="w3-button w3-bar-item">About Us</a>
+  <a href="#tour" class="w3-button w3-bar-item">Team </a>
+  <a href="#contact" class="w3-button w3-bar-item">Contact Us</a>
+  <a href="#login/sign up" class="w3-button w3-bar-item">Login/Sign up</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="https://www.dienodigital.com/wp-content/uploads/2020/05/1589724631_Do-It-Yourself-Tutorials-How-To-Create-A.jpg"
+  style="width:100%">
+  <img class="mySlides" src="https://i.ytimg.com/vi/-2LtZRi6Q0s/maxresdefault.jpg"
+  style="width:100%">
+  <img class="mySlides" src="https://designingforuncertainty.com/wp-content/uploads/2019/12/maxresdefault-52.jpg"
+  style="width:100%">
+  <img class="mySlides" src="https://1.bp.blogspot.com/-9AVmd4Ule6w/X3xXe_k3-3I/AAAAAAAAAa8/8-emeCiO_FktWAVKky1WLAk8kX6ARUGLACLcBGAsYHQ/s1280/Create%2BResponsive%2BWebsite%2BJust%2Busing%2BHTML%2Band%2BCSS%2B%2528No%2BJavaScript%2529.jpg"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">THE WEBSITE</h2>
+  <p class="w3-opacity"><i>We love to create websites</i></p>
+  <p class="w3-justify"><span style="color:blue" >We have created a website for people to learn html and css.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</section>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://github.com/Rukaiya2009?tab=overview&from=2022-03-01&to=2022-03-04" target="_blank">Rukaiya Binte Shafique</a>
+  </p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
